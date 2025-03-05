@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(assests/images/netflix\ background.jpg);
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+}
+.main .box{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.75;
+    background-color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    max-width: 79vw;
+    justify-content: space-between;
+    margin: auto;
+    height: 110px;
+}
+img{
+    width: 150px;
+    position: relative;
+    z-index: 1; 
+    margin-top: -17px;
+}
+nav button{
+    position: relative;
+    z-index: 1; 
+}
+.hero{
+    font-family: 'Martal Sans',sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    z-index: 1; 
+    text-align: center;
+    max-width: 45vw;
+    margin: auto;
+    padding: 24px;
+    margin-top: -65px;
+    gap: 25px;
+}
+.hero > :nth-child(1)
+{
+    font-weight: 900;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin-bottom: -10px;
+}
+.hero > :nth-child(2)
+{
+    margin-top: -15px;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: -10px;
+    color: rgb(255, 255, 255);
+}
+.hero > :nth-child(3)
+{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.hero > :nth-child(4)
+{
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    margin-top: -12px;
+}
+.seperator{
+    height: 7px;
+    background-color: rgb(55, 54, 54);
+}
+.btn1{
+    background-color: rgba(23, 23, 23, 0.5);
+    padding:6px 20px;
+    color: white;
+    font-family: 'Martan Sans', sans-serif;
+    font-weight: 700;
+    border-radius: 7px;
+    font-size: 14px;
+    border: 1px solid rgba{23, 23, 23, 0.8};
+    cursor: pointer;
+}
+.btn2{
+    cursor: pointer;
+    background-color: rgb(229, 9, 20);
+    padding:7px 14px 8px;
+    color: white;
+    font-family: 'Martan Sans', sans-serif;
+    font-weight: 700;
+    border-radius: 7px;
+    border: 1px solid rgb(229, 9, 20);
+    margin-bottom: 25px;
+    font-size: 14px;
+    margin-left: 7px;
+}
+.btn3{
+    background-color: rgb(229, 9, 20);
+    padding: 15px 40px 15px 22px ;
+    border-radius: 4px;
+    font-size: 600;
+    font-size: 22px;
+    color: white;
+    font-family: 'Martan Sans', sans-serif;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 1px solid rgb(229, 9, 20);    
+}
+.email{
+    padding: 18px 160px 18px 18px;
+    background-color: rgba(23, 23, 23, 0.8);
+    border: 2px solid rgba(200, 197, 197, 0.45);
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    color: white;
+    /* red green blue opacity */    
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 60vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+.secimg{
+    position: relative;
+}
+.secimg .img1{
+    width: 30vw;
+    position: relative;
+}
+.secimg .img2{
+    width: 20vw;
+    position: absolute;
+    top: 55px;
+    right: 80px;
+}
+.line{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Martal Sans',sans-serif;
+}
+.line1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.line2{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(200, 197, 197)
+}
+.secimg .img3{
+    width: 25vw;
+    margin-right: 5vw;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+.secimg .img4{
+    width: 20vw;
+    margin-left: 7vw;
+}
+.secimg .img5{
+    width: 20vw;
+    margin-right: 5vw;
+}
+.faq{
+    max-width: 80vw;
+    margin: auto;
+    font-family: 'Martal Sans',sans-serif;
+}
+h2{
+    color: rgb(255, 255, 255);
+    margin-top: 5vh;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 14px;
+    margin-left: 4px;
+}
+.faqbox{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 24px;
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 18px;
+    background-color: rgb(48, 47, 47);
+    margin: 10px 8px ;
+    margin-left: -1px;
+    cursor: pointer;
+    justify-content: space-between;
+    transition: all 0.4s ease-out;
+}
+.faqbox:hover{
+    background-color: rgb(77, 77, 77);
+}
+.plus{
+    font-size: 38px;
+}
+h4{
+    color: rgb(255, 255, 255);
+    margin-top: 11vh;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-family: 'Martal Sans',sans-serif;
+    margin-left: 4px;
+    text-align: center;
+}
+.email1{
+    padding: 18px 340px 18px 18px;
+    background-color: rgba(23, 23, 23, 0.8);
+    border: 2px solid rgba(200, 197, 197, 0.45);
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    color: white;
+    /* red green blue opacity */    
+}
+.seperator1{
+    height: 7px;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    background-color: rgb(55, 54, 54);
+}
+.call{
+    color:rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    max-width: 80vw;
+    margin: auto;
+    font-weight: 400;
+    margin-bottom: 7vh;
+    font-family: 'Martal Sans',sans-serif;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+}
+.footer-item{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer-item a{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Martal Sans',sans-serif;
+    color:rgba(255, 255, 255, 0.7);
+    margin-bottom: 15px;
+}
